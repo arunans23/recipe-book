@@ -1,0 +1,3 @@
+[cli]
+bears = coalaBear
+files = src/*.ts
