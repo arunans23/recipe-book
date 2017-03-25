@@ -2,6 +2,7 @@ import { Injectable, EventEmitter } from '@angular/core';
 import {Recipe} from "./recipe";
 import {Ingredient} from "../shared/ingredient";
 import {Headers, Http, Response} from "@angular/http";
+import 'rxjs/Rx';
 
 @Injectable()
 export class RecipeService {
